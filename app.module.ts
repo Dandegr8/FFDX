@@ -14,8 +14,13 @@ import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 import { HeroesComponent }      from './heroes/heroes.component';
 import { HeroSearchComponent }  from './hero-search/hero-search.component';
 import { MessagesComponent }    from './messages/messages.component';
+<<<<<<< HEAD
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material';
+=======
+import { AddContactComponent } from './add-contact/add-contact.component';
+
+>>>>>>> eba96f7f52460149deeb881a68635d46563b184a
 @NgModule({
   imports: [
     BrowserModule,
@@ -39,7 +44,8 @@ import { MatButtonModule } from '@angular/material';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    AddContactComponent
   ],
   bootstrap: [ AppComponent ]
 })
